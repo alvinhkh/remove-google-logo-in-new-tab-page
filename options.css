@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400);
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+	text-align: left;
+	color: #000;
+}
+a {
+	color: #000;
+	text-decoration: none
+}
+a:hover {
+	text-decoration: underline
+}
+h1 {
+	font-size: 2.4em;
+	font-weight: 300;
+	text-align: center;
+}
+input[type=checkbox] {
+	width: 14px;
+	height: 14px;
+}
+button {
+	border: 0;
+	outline: none;
+	background: #EEE;
+	color: #000;
+	cursor: pointer;
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: 300;
+	height: 48px;
+	line-height: 48px;
+	margin: 2px 0;
+}
+button:hover {
+	background: #CCC;
+	color: #000;
+}
+button:active {
+	background: #AAA;
+	color: #FFF;
+}
+p {
+	font-size: 1.4em;
+	padding-left: 2px;
+}
+p#reminder {
+	font-size: 0.8em;
+}
+.wrapper {
+	width: 400px;
+	margin: 80px auto;
+}
+.wrapper div {
+	margin: 10px 0;
+}
+.wrapper span {
+	height: 48px;
+	line-height: 48px;
+	font-weight: 300;
+}
+.button-container {
+	display: block;
+	text-align: center;
+}
+.button-container > button {
+	width: 46%;
+}
+#title {
+	margin: 0 0 40px 0;
+}
+.icon {
+	width: 69px;
+	height: 69px;
+	margin: 0 6px;
+}
+#title > h1, #title > img {
+	display: inline-block;
+	vertical-align: middle;
+}
+#author_by {
+	margin: 0;
+	text-align: right;
+}

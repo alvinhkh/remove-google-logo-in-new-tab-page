@@ -1,0 +1,29 @@
+{
+	"name": "__MSG_extension_name__",
+	"description": "__MSG_extension_description__",
+	"version": "0.0.2",
+	"default_locale": "en",
+	"author": "AlvinHKH",
+	"homepage_url": "http://www.alvinhkh.com",
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"manifest_version": 2,
+	"icons": { "128": "icon.png" },
+	"options_page": "options.html",
+	"permissions": [
+		"storage"
+	],
+	"content_scripts": [{
+		"js": [
+			"script.js"
+		],
+		"css": [
+			"style.css"
+		],
+		"matches": [
+			"*://*/_/chrome/newtab",
+			"*://*/_/chrome/newtab*"
+		],
+		"run_at": "document_end"
+	}]
+
+}

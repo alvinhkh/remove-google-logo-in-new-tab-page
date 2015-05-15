@@ -1,0 +1,23 @@
+body.REMOVE_LINKS > *:not(#mngb):not(#lga):not(form):not(#most-visited):not(#logo):not(#dood):not(#fakebox),
+body.REMOVE_LOGO > *:not(#mngb):not(#lga):not(form):not(#most-visited):not(#logo):not(#dood):not(#fakebox),
+body.REMOVE_SEARCH_BAR > *:not(#mngb):not(#lga):not(form):not(#most-visited):not(#logo):not(#dood):not(#fakebox),
+body.REMOVE_MV > *:not(#mngb):not(#lga):not(form):not(#most-visited):not(#logo):not(#dood):not(#fakebox)
+{
+	display: none !important
+}
+body.REMOVE_LINKS #mngb {
+	display: none !important
+}
+body.REMOVE_LOGO #lga > *, body.REMOVE_LOGO #logo, body.REMOVE_LOGO #dood {
+	display: none !important
+}
+body.REMOVE_SEARCH_BAR > form, body.REMOVE_SEARCH_BAR  #fakebox {
+	display: none !important
+}
+body.REMOVE_MV #most-visited {
+	display: none !important
+}
+.REMOVE_SEARCH_BAR.REMOVE_LOGO #most-visited {
+	width: 100%;
+	overflow: hidden;
+}

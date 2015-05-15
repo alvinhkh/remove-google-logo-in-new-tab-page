@@ -1,0 +1,10 @@
+{
+	"extension_name": { "message": "Remove Google Logo in New Tab Page" },
+	"extension_description": { "message": "This extension able to remove elements like the Google Logo, Search bar and Most Visited in New Tab Page." },
+
+	"by": {"message": "By"},
+	"button_save": { "message": "Set" },
+	"button_all": { "message": "Remove All" },
+
+	"message_saved": { "message": "Options Saved." }
+}
